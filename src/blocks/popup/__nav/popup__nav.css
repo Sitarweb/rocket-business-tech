@@ -1,0 +1,5 @@
+.popup__nav {
+    max-width: 107px;
+    display: grid;
+    gap: 10px;
+}

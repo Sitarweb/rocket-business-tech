@@ -1,0 +1,16 @@
+.endocrine-lab {
+    flex: 0 0 100%;
+    background-image: url('../../images/endocrine-lab.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab{
+        background-image: none;
+        background-color: #E2F0EF;
+        padding-bottom: 42px;
+        border-radius: 10px
+    }
+}

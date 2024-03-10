@@ -1,0 +1,15 @@
+.endocrine-lab__list {
+    margin: 16px 0 33px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.endocrine-lab__list li::marker {
+    color: #1FA181;
+}
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab__list{
+        margin: 12px 0 17px;
+    }
+}

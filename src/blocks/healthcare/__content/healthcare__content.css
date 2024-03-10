@@ -1,0 +1,14 @@
+.healthcare__content {
+    margin-left: auto;
+    max-width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .healthcare__content{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+}

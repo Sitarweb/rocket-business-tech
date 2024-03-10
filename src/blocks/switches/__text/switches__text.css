@@ -1,0 +1,14 @@
+.switches__text {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    color: #000000;
+}
+
+
+.switches__text .total-slides {
+    color: #E1E1E1;
+}

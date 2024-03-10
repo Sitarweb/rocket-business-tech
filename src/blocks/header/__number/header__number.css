@@ -1,0 +1,23 @@
+.header__number {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #364844;
+}
+
+@media screen and (max-width: 767px) {
+    .header__number {
+        font-weight: 700;
+        line-height: 21px;
+        text-align: right;
+    }
+
+    .header__number .gray-text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+    }
+}

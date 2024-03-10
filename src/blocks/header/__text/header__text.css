@@ -1,0 +1,14 @@
+.header__text {
+    height: 38px;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #364844;
+}
+
+.header__text .gray-text {
+    color: #868686;
+}

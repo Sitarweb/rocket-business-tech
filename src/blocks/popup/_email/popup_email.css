@@ -1,0 +1,12 @@
+.popup_email {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .popup_email {
+        justify-content: initial;
+        top: 100px;
+    }
+}

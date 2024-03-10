@@ -1,0 +1,10 @@
+.clinic {
+    padding: 10px 20px;
+    background-color: #1FA181;
+}
+
+@media screen and (max-width: 767px) {
+    .clinic{
+        display: none;
+    }
+}

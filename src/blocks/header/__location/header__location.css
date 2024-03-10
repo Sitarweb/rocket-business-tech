@@ -1,0 +1,10 @@
+.header__location {
+    display: flex;
+    margin: 15px 0 14px 20.55px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__location{
+        display: none;
+    }
+}

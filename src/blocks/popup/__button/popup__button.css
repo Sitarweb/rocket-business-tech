@@ -1,0 +1,21 @@
+.popup__button {
+    border: none;
+    border-radius: 50px;
+    color: #1FA181;
+    background-color: #F6F6F6;
+    padding: 11px 0;
+    margin: 39px 0 0;
+    max-width: 196px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    transition: background .7s ease;
+}
+
+.popup__button:hover {
+    color: #FFFFFF;
+    background: #0DBC91;
+    cursor: pointer;
+}

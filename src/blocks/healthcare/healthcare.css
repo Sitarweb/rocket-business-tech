@@ -1,0 +1,9 @@
+.healthcare {
+    background-color: #F8FBFA;
+}
+
+@media screen and (max-width: 767px) {
+    .healthcare{
+        padding-bottom: 53px;
+    }
+}

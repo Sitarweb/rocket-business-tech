@@ -1,0 +1,32 @@
+.endocrine-lab__title {
+    margin: 0;
+    color: rgb(54, 72, 68);
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.29;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.endocrine-lab__title .smaller-text {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab__title {
+        font-style: normal;
+        font-size: 26px;
+        line-height: 34px;
+        text-transform: uppercase;
+    }
+
+    .endocrine-lab__title .smaller-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

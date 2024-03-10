@@ -1,0 +1,11 @@
+.header__contact {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .header__contact{
+        display: none;
+    }
+}

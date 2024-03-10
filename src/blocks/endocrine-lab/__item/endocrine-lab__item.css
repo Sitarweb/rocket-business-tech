@@ -1,0 +1,17 @@
+.endocrine-lab__item {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #364844;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab__item{
+        font-style: normal;
+        font-size: 14px;
+        line-height: 145%;
+    }
+}

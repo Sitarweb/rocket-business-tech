@@ -1,0 +1,94 @@
+/* normalize */
+@import url(../vendor/normalize.css);
+
+/* page*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/_overflow/page_overflow.css);
+
+/** header **/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_close/header__burger_close.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__location/header__location.css);
+@import url(../blocks/header/__icon/header__icon.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__contact/header__contact.css);
+@import url(../blocks/header/__whatsapp/header__whatsapp.css);
+@import url(../blocks/header/__number/header__number.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
+
+/** clinic **/
+@import url(../blocks/clinic/clinic.css);
+@import url(../blocks/clinic/__nav/clinic__nav.css);
+@import url(../blocks/clinic/__link/clinic__link.css);
+
+/** healthcare **/
+@import url(../blocks/healthcare/healthcare.css);
+@import url(../blocks/healthcare/__content/healthcare__content.css);
+@import url(../blocks/healthcare/__title/healthcare__title.css);
+@import url(../blocks/healthcare/__description/healthcare__description.css);
+@import url(../blocks/healthcare/__image/healthcare__image.css);
+
+/** slider-container **/
+@import url(../blocks/slider-container/slider-container.css);
+
+/** slider **/
+@import url(../blocks/slider/slider.css);
+
+/** endocrine-lab **/
+@import url(../blocks/endocrine-lab/endocrine-lab.css);
+@import url(../blocks/endocrine-lab/__content/endocrine-lab__content.css);
+@import url(../blocks/endocrine-lab/__title/endocrine-lab__title.css);
+@import url(../blocks/endocrine-lab/__list/endocrine-lab__list.css);
+@import url(../blocks/endocrine-lab/__item/endocrine-lab__item.css);
+@import url(../blocks/endocrine-lab/__paragraph/endocrine-lab__paragraph.css);
+@import url(../blocks/endocrine-lab//__button/endocrine-lab__button.css);
+@import url(../blocks/endocrine-lab/__doctor/endocrine-lab__doctor.css);
+
+/** switches **/
+@import url(../blocks/switches/switches.css);
+@import url(../blocks/switches/__prev/switches__prev.css);
+@import url(../blocks/switches/__text/switches__text.css);
+@import url(../blocks/switches/__next/switches__next.css);
+
+/** footer **/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__media/footer__media.css);
+
+/** popup **/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_info/popup_info.css);
+@import url(../blocks/popup/_email/popup_email.css);
+@import url(../blocks/popup/_is-opened/popup_is-opened.css);
+@import url(../blocks/popup/__nav/popup__nav.css);
+@import url(../blocks/popup/__link/popup__link.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__content/popup__content.css);
+
+/** form **/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__button/form__button.css);
+
+/** file **/
+@import url(../blocks/file/file.css);
+@import url(../blocks/file/__item/file__item.css);
+@import url(../blocks/file/__preview/file__preview.css);
+@import url(../blocks/file/__input/file__input.css);
+@import url(../blocks/file/__button/file__button.css);
+
+/** checkbox **/
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__input/checkbox__input.css);
+@import url(../blocks/checkbox/__label/checkbox__label.css);
+@import url(../blocks/checkbox/__link/checkbox__link.css);

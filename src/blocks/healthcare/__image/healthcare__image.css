@@ -1,0 +1,16 @@
+.healthcare__image {
+    width: 62.1%;
+}
+
+@media screen and (max-width: 1045px) {
+    .healthcare__image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .healthcare__image{
+        width: 100%;
+        min-height: 288px;
+    }
+}

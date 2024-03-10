@@ -1,0 +1,14 @@
+.healthcare__description {
+    margin: 14px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 767px) {
+    .healthcare__description{
+        width: 340px;
+        margin: 9px 0 0;
+        font-size: 14px;
+    }
+}

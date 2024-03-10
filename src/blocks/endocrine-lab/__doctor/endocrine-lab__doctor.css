@@ -1,0 +1,9 @@
+.endocrine-lab__doctor {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab__doctor {
+        display: block;
+    }
+}

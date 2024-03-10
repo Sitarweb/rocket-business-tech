@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Simon Tarasenko">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <title>Rocket Business</title>
+</head>
+<body class="page">
+    <!--Шапка-->
+    <header class="header">
+        <button class="header__burger" type="button"></button>
+        <img
+            src="<%=require('./images/header__logo.svg')%>"
+            alt="Лого"
+            class="header__logo"
+        >
+        <div class="header__location">
+            <img
+                src="<%=require('./images/location-info.svg')%>"
+                alt="Информация о местоположении"
+                class="header__icon"
+            >
+            <p class="header__text">
+                Ростов-на-Дону<br>
+                <span class="gray-text">ул.Ленина,2Б</span>
+            </p>            
+        </div>
+        <div class="header__contact">
+            <img
+                src="<%=require('./images/whatsapp.svg')%>"
+                alt="whatsapp"
+                class="header__whatsapp"
+            >
+            <p class="header__number">+7(863) 000 00 00</p>
+        </div>
+        <button class="header__button" type="button">Записаться на прием</button>
+        <div class="header__mobile">
+            <p class="header__number">+7(863) 000 00 00
+                <br>
+                <span class="gray-text">Ростов-на-Дону</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="content">
+
+        <section class="clinic">
+            <nav class="clinic__nav">
+                <a href="#" class="clinic__link">О клинике</a>
+                <a href="#" class="clinic__link">Услуги</a>
+                <a href="#" class="clinic__link">Специалисты</a>
+                <a href="#" class="clinic__link">Цены</a>
+                <a href="#" class="clinic__link">Контакты</a>
+            </nav>
+        </section>        
+
+        <section class="healthcare">
+            <div class="healthcare__content">
+                <h1 class="healthcare__title">
+                    Многопрофильная клиника для детей и взрослых
+                    <br>
+                    <p class="healthcare__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                </h1>
+                <img class="healthcare__image" src="<%=require('./images/healthcare.jpg')%>" alt="Изображение клиники">
+            </div>
+        </section>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <article class="endocrine-lab">
+                    <img class="endocrine-lab__doctor" src="<%=require('./images/doctor.jpg')%>" alt="Доктор">
+                    <div class="endocrine-lab__content">
+                        <h1 class="endocrine-lab__title">Check-UP<br>
+                            <span class="smaller-text">для мужчин</span>
+                        </h1>
+                        <ul class="endocrine-lab__list">
+                            <li class="endocrine-lab__item">Гормональный скрининг</li>
+                            <li class="endocrine-lab__item">Тестостерон</li>
+                            <li class="endocrine-lab__item">Свободный тестостерон</li>
+                            <li class="endocrine-lab__item">Глобулин, связывающий половые гормоны</li>
+                        </ul>
+                        <p class="endocrine-lab__paragraph">Всего 2800₽<span class="gray-text">3500₽</span></p>
+                    </div>
+                    <button class="endocrine-lab__button" type="button">Записаться</button>
+                    <button class="endocrine-lab__button" type="button">Подробнее</button>
+                </article>
+
+                <!-- Добавьте несколько секций для других слайдов по аналогии -->
+
+            </div>
+          
+            <div class="switches">
+                <button class="switches__prev" type="button"></button>
+                <span class="switches__text">
+                    <span class="current-slide"></span><span class="total-slides"></span>
+                </span>
+                <button class="switches__next" type="button"></button>
+            </div>
+        </div>
+          
+
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__content">
+            <img
+            src="<%=require('./images/footer__logo.svg')%>"
+            alt="Лого"
+            class="footer__logo"
+            >
+            <nav class="footer__nav">
+                <a href="#" class="footer__link">О клинике</a>
+                <a href="#" class="footer__link">Услуги</a>
+                <a href="#" class="footer__link">Специалисты</a>
+                <a href="#" class="footer__link">Цены</a>
+                <a href="#" class="footer__link">Контакты</a>
+            </nav>
+            <nav class="footer__social">
+                <a href="#" class="footer__media">
+                    <img src="<%=require('./images/instagram.svg')%>" alt="инстаграм">
+                </a>
+                <a href="#" class="footer__media">
+                    <img src="<%=require('./images/whatsapp(footer).svg')%>" alt="whatsapp">
+                </a>
+                <a href="#" class="footer__media">
+                    <img src="<%=require('./images/telegram.svg')%>" alt="телеграм">
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Попап для предоставления пользователю информации о клинике -->
+    <section class="popup popup_info">
+        <nav class="popup__nav">
+            <a href="#" class="popup__link">О клинике</a>
+            <a href="#" class="popup__link">Услуги</a>
+            <a href="#" class="popup__link">Специалисты</a>
+            <a href="#" class="popup__link">Цены</a>
+            <a href="#" class="popup__link">Контакты</a>
+        </nav>
+        <button class="popup__button" type="button">Записаться на прием</button>
+    </section>
+
+    <!-- Попап для отправки данных на почту -->
+    <section class="popup popup_email">
+        <div class="popup__content">
+            <form class="form" name="email-form" novalidate>
+                <h1 class="form__title">Отправка данных на почту</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Имя:</label>
+                    <input id="formName" name="name" type="text" class="form__input _req" autocomplete="off">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail:</label>
+                    <input id="formEmail" name="email" type="email" class="form__input _req _email" autocomplete="off">
+                </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form__label">Сообщение:</label>
+                    <textarea name="message" id="formMessage" class="form__input" autocomplete="off"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Прикрепить фото</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input accept=".jpg, .png, .gif" type="file" name="image" id="formImage" class="file__input" autocomplete="off">
+                            <button class="file__button" type="button">Выбрать</button>
+                        </div>
+                        <div id="formPreview" class="file__preview"></div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input type="checkbox" name="agreement" id="formAgreement" class="checkbox__input _req" checked>
+                        <label for="formAgreement" class="checkbox__label">Я даю свое согласие на обработку персональных данных в соответсвии с <a href="#" class="checkbox__link">Условиями</a></label>
+                    </div>
+                </div>
+                <button class="form__button" type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

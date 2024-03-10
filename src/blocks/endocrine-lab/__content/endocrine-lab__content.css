@@ -1,0 +1,10 @@
+.endocrine-lab__content {
+    padding: 53.14px 0 26px 63px;
+}
+
+@media screen and (max-width: 767px) {
+    .endocrine-lab__content{
+        padding: 0;
+        margin: 22px 23px 27px;
+    }
+}

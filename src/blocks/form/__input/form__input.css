@@ -1,0 +1,41 @@
+.form__input {
+    height: 50px;
+    padding: 0 25px;
+    border-radius: 5px;
+    border: 1px solid #364844;
+    width: 90%;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #364844;
+    transition: all 0.5s ease;
+}
+
+textarea.form__input {
+    padding: 25px;
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form__input:focus {
+    box-shadow: 0 0 15px #0DBC91;
+}
+
+.form__input._error {
+    box-shadow: 0 0 15px red;
+}
+
+@media screen and (max-width: 767px) {
+    .form__input {
+        height: 30px;
+        padding: 0 11px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    textarea.form__input {
+        min-height: 60px;
+        padding: 11px;
+    }
+}

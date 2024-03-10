@@ -1,0 +1,25 @@
+.header__button {
+    margin-left: 35px;
+    padding: 11px 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: background .7s ease;
+}
+
+.header__button:hover {
+    background-color: #00D29F;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .header__button{
+        display: none;
+    }
+}

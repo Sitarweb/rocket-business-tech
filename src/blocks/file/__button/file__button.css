@@ -1,0 +1,26 @@
+.file__button {
+    padding: 11px 59px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    color: rgb(255, 255, 255);
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    transition: background .7s ease;
+}
+
+.file__button:hover {
+    background: rgb(0, 210, 159);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .file__button {
+        padding: 11px 29px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+}

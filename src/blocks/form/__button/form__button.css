@@ -1,0 +1,27 @@
+.form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: #0DBC91;
+    color: #FFFFFF;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.form__button:hover {
+    background: rgb(0, 210, 159);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .form__button {
+        min-height: 40px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+}

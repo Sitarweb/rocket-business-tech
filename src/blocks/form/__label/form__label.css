@@ -1,0 +1,16 @@
+.form__label {
+    display: block;
+    margin: 0 0 10px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #364844;
+}
+
+@media screen and (max-width: 767px) {
+    .form__label {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}

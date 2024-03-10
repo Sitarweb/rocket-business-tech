@@ -1,0 +1,14 @@
+.switches__next {
+    width: 34px;
+    height: 34px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    background-image: url('../../../images/right-arrow.svg');
+}
+
+.switches__next:hover {
+    filter: hue-rotate(90deg);
+    cursor: pointer;
+}
